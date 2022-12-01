@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #6657C6 50%, #e2e3ea 50%);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fontes/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../assets/fontes/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../assets/fontes/Roboto/Roboto-Regular.ttf);
+}
+
+.grid {
+    position: relative;
+    top: 150px;
+    left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px;
+    border: solid 10px #e9e9ef;
+    border-radius: 50px;
+    height: 700px;
+    width: 70%;
+    background-image: linear-gradient(to right, #6657C6 50%, #e2e3ea 50%);
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-consultores {
+    display: flex;
+    flex-direction: column;
+}
+
+header h1,
+h3 {
+    position: relative;
+    left: 10%;
+    top: 30px;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: Roboto-Bold;
+}
+
+header h3 {
+    font-family: Roboto-Regular;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.imgs-p-consultores {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs-p-consultores p {
+    color: white;
+    font-family: Roboto;
+    font-size: 2rem;
+    margin: 5.5% 0% 0% 10%;
+}
+
+#btn-google {
+    margin-top: 70px;
+    background-color: #6657C6;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-family: Roboto-Regular;
+    font-weight: 200;
+    color: white;
+    border: solid 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#btn-google:hover {
+    background-color: #4735B7;
+    transition: all 0.5s;
+}
+
+#btn-enviar {
+    background-color: #6657C6;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-family: Roboto-Bold;
+    color: white;
+    border: solid 0px;
+    cursor: pointer;
+}
+
+#btn-enviar:hover {
+    background-color: #4735B7;
+    transition: all 0.5s;
+}
+
+.cadastro img {
+    width: 30px;
+}
+
+#span-ou {
+    margin: 50px 0px 30px 0px;
+    font-family: Roboto-Regular;
+    text-align: center;
+}
+
+input {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: solid 2px;
+    padding: 12px;
+    outline: 0;
+}
+
+.cadastro input:focus {
+    border: solid 2px #6657C6;
+
+}
+
+.cadastro label {
+    font-family: Roboto-Regular;
+}
+
+#email {
+    margin-bottom: 20px;
+}
+
+#password {
+    margin-bottom: 20px;
+}
+
+#confirmePassword {
+    margin-bottom: 20px;
+}
+
+#btn-enviar {
+    margin-top: 10px;
+}
+
+.p-form {
+    font-family: Roboto-Regular;
+    text-align: center;
+}
+
+.p-form span {
+    color: #6657C6;
+    cursor: pointer;
+}
+
+.p-form span:hover {
+    color: #4735B7;
+    cursor: pointer;
+}
+
+.email-validate {
+    display: none;
+}
+
+.ativado-email-validate {
+    display: block;
+    position: relative;
+    top: -18px;
+    display: block;
+}
+
+.password-validate {
+    display: none;
+}
+
+.ativado-password-caractere {
+    position: relative;
+    top: -18px;
+    display: block;
+}
+
+.confirme-password {
+    display: none;
+}
+
+.ativado-confirme-password {
+    display: block;
+    position: relative;
+    top: -18px;
+    display: block;
+}
+
+.color-validate-password {
+    border: solid 2px red;
+}
+
+.color-validate-confirme-password {
+    border: solid 2px red;
+}
+
+.color-validate-email {
+    border: solid 2px red;
+
+}

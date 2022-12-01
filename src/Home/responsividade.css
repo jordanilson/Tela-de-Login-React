@@ -1,0 +1,288 @@
+@media screen and (max-width:1250px) and (min-width:500px) {
+    .grid {
+        position: relative;
+        top: 150px;
+        left: 0%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        box-shadow: none;
+        border-radius: 0px;
+        border: solid 0px;
+        height: 700px;
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:500px) {
+    .grid {
+        position: relative;
+        top: 150px;
+        left: -65px;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: none;
+        border-radius: 0px;
+        border: solid 0px;
+        height: 700px;
+        width: 150%;
+        background-image: linear-gradient(to right, #6657C6 0%, #e2e3ea 0%);
+    }
+
+    .div-consultores {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:400px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
+    }
+
+
+    .grid {
+        position: relative;
+        top: 100px;
+        left: -65px;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: none;
+        border-radius: 0px;
+        border: solid 0px;
+        height: 650px;
+        width: 150%;
+        background-image: linear-gradient(to right, #6657C6 0%, #e2e3ea 0%);
+    }
+
+    .div-consultores {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:400px) and (min-width:375px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
+    }
+
+    .grid {
+        position: relative;
+        top: 30px;
+        left: -20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: none;
+        border-radius: 0px;
+        border: solid 0px;
+        height: 600px;
+        width: 120%;
+        background-image: linear-gradient(to right, #6657C6 0%, #e2e3ea 0%);
+    }
+
+    .div-consultores {
+        display: none;
+    }
+
+    #span-ou {
+        margin-top: 15px;
+
+    }
+
+    #btn-google span {
+        display: none;
+    }
+
+    #btn-google img {
+        width: 20px;
+    }
+}
+@media screen and (max-width:500px) and (min-width:400px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
+    }
+
+
+    .grid {
+        position: relative;
+        top: 125px;
+        left: -65px;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: none;
+        border-radius: 0px;
+        border: solid 0px;
+        height: 650px;
+        width: 150%;
+        background-image: linear-gradient(to right, #6657C6 0%, #e2e3ea 0%);
+    }
+
+    .div-consultores {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:400px) and (min-width:375px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
+    }
+
+    .grid {
+        position: relative;
+        top: 90px;
+        left: -20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: none;
+        border-radius: 0px;
+        border: solid 0px;
+        height: 600px;
+        width: 115%;
+        background-image: linear-gradient(to right, #6657C6 0%, #e2e3ea 0%);
+    }
+
+    .div-consultores {
+        display: none;
+    }
+
+    #span-ou {
+        margin-top: 15px;
+
+    }
+
+    #btn-google span {
+        display: none;
+    }
+
+    #btn-google img {
+        width: 20px;
+    }
+}
+@media screen and (max-width:375px) and (min-width:360px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
+    }
+
+    .grid {
+        position: relative;
+        top: 35px;
+        left: -20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: none;
+        border-radius: 0px;
+        border: solid 0px;
+        height: 600px;
+        width: 120%;
+        background-image: linear-gradient(to right, #6657C6 0%, #e2e3ea 0%);
+    }
+
+    .div-consultores {
+        display: none;
+    }
+
+    #span-ou {
+        margin-top: 15px;
+
+    }
+
+    #btn-google span {
+        display: none;
+    }
+
+    #btn-google img {
+        width: 20px;
+    }
+}
+@media screen and (max-width:360px) and (min-width:300px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
+    }
+
+    .grid {
+        position: relative;
+        top: 70px;
+        left: -20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: none;
+        border-radius: 0px;
+        border: solid 0px;
+        height: 600px;
+        width: 120%;
+        background-image: linear-gradient(to right, #6657C6 0%, #e2e3ea 0%);
+    }
+
+    .div-consultores {
+        display: none;
+    }
+
+    #span-ou {
+        margin-top: 15px;
+
+    }
+
+    #btn-google span {
+        display: none;
+    }
+
+    #btn-google img {
+        width: 20px;
+    }
+}
+@media screen and (max-width:300px) and (min-width:100px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
+    }
+
+    .grid {
+        position: relative;
+        top: 30px;
+        left: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: none;
+        border-radius: 0px;
+        border: solid 0px;
+        height: 600px;
+        width: 100%;
+        background-image: linear-gradient(to right, #6657C6 0%, #e2e3ea 0%);
+    }
+
+    .div-consultores {
+        display: none;
+    }
+
+    #span-ou {
+        margin-top: 15px;
+
+    }
+
+    #btn-google span {
+        display: none;
+    }
+
+    #btn-google img {
+        width: 20px;
+    }
+}

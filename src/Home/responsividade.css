@@ -46,8 +46,7 @@
         justify-content: center;
         background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
     }
-
-
+    
     .grid {
         position: relative;
         top: 100px;
@@ -66,6 +65,17 @@
         display: none;
     }
 
+    .email-validate {
+        font-size: 0.85rem;
+    }
+
+    .password-validate {
+        font-size: 0.85rem;
+    }
+
+    .confirme-password {
+        font-size: 0.85rem;
+    }
 }
 
 @media screen and (max-width:400px) and (min-width:375px) {
@@ -105,14 +115,26 @@
     #btn-google img {
         width: 20px;
     }
+
+    .email-validate {
+        font-size: 0.85rem;
+    }
+
+    .password-validate {
+        font-size: 0.85rem;
+    }
+
+    .confirme-password {
+        font-size: 0.85rem;
+    }
 }
+
 @media screen and (max-width:500px) and (min-width:400px) {
     body {
         display: flex;
         justify-content: center;
         background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
     }
-
 
     .grid {
         position: relative;
@@ -132,6 +154,30 @@
         display: none;
     }
 
+    .email-validate {
+        font-size: 0.85rem;
+    }
+
+    .password-validate {
+        font-size: 0.85rem;
+    }
+
+    .confirme-password {
+        font-size: 0.85rem;
+    }
+
+    #btn-google {
+        margin-top: 40px;
+    }
+
+    form {
+        margin-top: -10px;
+    }
+
+    #span-ou {
+        margin-top: 30px;
+    }
+
 }
 
 @media screen and (max-width:400px) and (min-width:375px) {
@@ -144,14 +190,14 @@
     .grid {
         position: relative;
         top: 90px;
-        left: -20px;
+        left: -30px;
         display: grid;
         grid-template-columns: 1fr;
         box-shadow: none;
         border-radius: 0px;
         border: solid 0px;
         height: 600px;
-        width: 115%;
+        width: 130%;
         background-image: linear-gradient(to right, #6657C6 0%, #e2e3ea 0%);
     }
 
@@ -164,6 +210,10 @@
 
     }
 
+    #btn-google {
+        margin-top: 40px;
+    }
+
     #btn-google span {
         display: none;
     }
@@ -171,7 +221,25 @@
     #btn-google img {
         width: 20px;
     }
+
+    .email-validate {
+        font-size: 0.75rem;
+    }
+
+    .password-validate {
+        font-size: 0.75rem;
+    }
+
+    .confirme-password {
+        font-size: 0.75rem;
+    }
+
+    form {
+        margin-top: -25px;
+    }
+
 }
+
 @media screen and (max-width:375px) and (min-width:360px) {
     body {
         display: flex;
@@ -202,6 +270,10 @@
 
     }
 
+    #btn-google {
+        margin-top: 40px;
+    }
+
     #btn-google span {
         display: none;
     }
@@ -209,7 +281,25 @@
     #btn-google img {
         width: 20px;
     }
+
+    .email-validate {
+        font-size: 0.75rem;
+    }
+
+    .password-validate {
+        font-size: 0.75rem;
+    }
+
+    .confirme-password {
+        font-size: 0.75rem;
+    }
+
+    form {
+        margin-top: -25px;
+    }
+
 }
+
 @media screen and (max-width:360px) and (min-width:300px) {
     body {
         display: flex;
@@ -235,9 +325,14 @@
         display: none;
     }
 
+
     #span-ou {
         margin-top: 15px;
 
+    }
+
+    #btn-google {
+        margin-top: 40px;
     }
 
     #btn-google span {
@@ -247,7 +342,27 @@
     #btn-google img {
         width: 20px;
     }
+
+    .email-validate {
+        font-size: 0.75rem;
+    }
+
+    .password-validate {
+        font-size: 0.75rem;
+    }
+
+    .confirme-password {
+        font-size: 0.75rem;
+    }
+
+    form {
+        margin-top: -25px;
+    }
+
+
+
 }
+
 @media screen and (max-width:300px) and (min-width:100px) {
     body {
         display: flex;
@@ -284,5 +399,21 @@
 
     #btn-google img {
         width: 20px;
+    }
+
+    .email-validate {
+        font-size: 0.75rem;
+    }
+
+    .password-validate {
+        font-size: 0.75rem;
+    }
+
+    .confirme-password {
+        font-size: 0.75rem;
+    }
+
+    form {
+        margin-top: -25px;
     }
 }

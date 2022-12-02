@@ -15,6 +15,12 @@
 }
 
 @media screen and (max-width:900px) and (min-width:500px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
+    }
+
     .grid {
         position: relative;
         top: 150px;
@@ -33,11 +39,22 @@
         display: none;
     }
 
-    body {
-        display: flex;
-        justify-content: center;
-        background-image: linear-gradient(to right, #6657C6 100%, #e2e3ea 0%);
+    .div-consultores {
+        display: none;
     }
+
+    .email-validate {
+        font-size: 0.75rem;
+    }
+
+    .password-validate {
+        font-size: 0.75rem;
+    }
+
+    .confirme-password {
+        font-size: 0.75rem;
+    }
+
 }
 
 @media screen and (max-width:500px) and (min-width:400px) {
@@ -66,15 +83,15 @@
     }
 
     .email-validate {
-        font-size: 0.85rem;
+        font-size: 0.60rem;
     }
 
     .password-validate {
-        font-size: 0.85rem;
+        font-size: 0.60rem;
     }
 
     .confirme-password {
-        font-size: 0.85rem;
+        font-size: 0.60rem;
     }
 }
 
@@ -117,15 +134,15 @@
     }
 
     .email-validate {
-        font-size: 0.85rem;
+        font-size: 0.60rem;
     }
 
     .password-validate {
-        font-size: 0.85rem;
+        font-size: 0.60rem;
     }
 
     .confirme-password {
-        font-size: 0.85rem;
+        font-size: 0.60rem;
     }
 }
 
@@ -139,14 +156,14 @@
     .grid {
         position: relative;
         top: 125px;
-        left: -65px;
+        left: -55px;
         display: grid;
         grid-template-columns: 1fr;
         box-shadow: none;
         border-radius: 0px;
         border: solid 0px;
         height: 650px;
-        width: 145%;
+        width: 150%;
         background-image: linear-gradient(to right, #6657C6 0%, #e2e3ea 0%);
     }
 
@@ -159,15 +176,15 @@
     }
 
     .email-validate {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     .password-validate {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     .confirme-password {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     #btn-google {
@@ -227,15 +244,15 @@
     }
 
     .email-validate {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     .password-validate {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     .confirme-password {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     form {
@@ -287,15 +304,15 @@
     }
 
     .email-validate {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     .password-validate {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     .confirme-password {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     form {
@@ -348,15 +365,15 @@
     }
 
     .email-validate {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     .password-validate {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     .confirme-password {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     form {
@@ -406,15 +423,15 @@
     }
 
     .email-validate {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     .password-validate {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     .confirme-password {
-        font-size: 0.75rem;
+        font-size: 0.60rem;
     }
 
     form {
